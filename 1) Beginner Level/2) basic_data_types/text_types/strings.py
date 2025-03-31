@@ -37,6 +37,39 @@ age = 25
 # String Slicing
 
 desc = "Hello world"
-result = desc[::-1]
+# result = desc[::-1]
 
-print(result)
+# print(desc[::-1])
+
+
+#
+# Multiplying a string
+a = "Hello "
+# print(a * 3)
+
+
+# Checking for a substrung
+a = " Hello World "
+
+# print('Hello' not in a)
+
+
+# Getting the length of a string
+# print(len(a))
+
+# print(a.strip())
+# print(a.lstrip())
+# print(a.rstrip())
+
+
+# Splitting a String
+a = "Hello World"
+# print(a.split('l'))
+
+
+# Replacing text in a string
+a = "I love Java Java"
+print(a.replace("Java", "Python"))
+
+
+
