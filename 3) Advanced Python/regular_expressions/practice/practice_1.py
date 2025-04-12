@@ -12,10 +12,6 @@ Also, follow us on Twitter @example_handle and don't forget to use the hashtag #
 
 Best,
 The Example Team
-test@gmail.com
-SHOULD NOT MATCH  tempemail@2334.com
-
-test.com
 """
 
 
@@ -24,7 +20,6 @@ url_pattern = re.compile(r'(https?)://([\w+.-]+)?\.(com|lk|net|org)(/[\w+]*)?')
 
 for match in url_pattern.finditer(text_to_search):
     print(match)
-
 
 
 # Find the Email Addresses
@@ -38,5 +33,5 @@ for email in email_pattern.finditer(text_to_search):
     print("\n\n-----------\n\n")
 
 
-
 # Find the Phone Numbers
+
